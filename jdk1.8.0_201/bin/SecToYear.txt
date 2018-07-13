@@ -1,0 +1,9 @@
+import javax.swing.*;
+class SecToYear{
+	public static void main(String[]args){
+		String s=JOptionPane.showInputDialog("Enter Seconds: ");
+		int sec=Integer.parseInt(s);
+		int year=sec/60/60/24/7/4/12;
+		JOptionPane.showMessageDialog(null,"Years: "+year);
+	}
+}

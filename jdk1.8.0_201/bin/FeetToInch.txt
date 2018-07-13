@@ -1,0 +1,2 @@
+import jacax.swing.*;
+class FeetToInch
